@@ -8,9 +8,7 @@ import plotly.express as px
 import pandas as pd
 import plotly
 
-df = pd.read_csv('https://github.com/rmejia41/open_datasets/raw/main/caries_nhanes_demo_cariesonly.csv')
-df['year'] = df['year'].astype('int64')
-df['state'] = df['state'].astype(str)
+df = pd.read_csv('https://github.com/rmejia41/open_datasets/raw/main/wfrs_app_yearly_scatter.csv')
 
 # ---------------------------------------------------------------
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
