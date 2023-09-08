@@ -1,6 +1,9 @@
-dash==2.13.0
-dash_bootstrap_components==1.4.2
-pandas==1.5.3
-plotly==5.16.1
+dash
+dash_bootstrap_components
+plotly.express
+dash.exceptions
+pandas
+plotly
+plotly.graph_objects
 gunicorn
 dash-tools
