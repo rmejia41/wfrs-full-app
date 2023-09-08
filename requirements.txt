@@ -3,6 +3,5 @@ dash_bootstrap_components
 plotly.express
 pandas
 plotly
-plotly.graph_objects
 gunicorn
 dash-tools
