@@ -29,8 +29,7 @@ app.layout = html.Div([
     dbc.Row([
         dbc.Col([
             dcc.Dropdown(id='dpdn2', value=['Alabama', 'Arkansas'], multi=True,
-                         options=[{'label': x, 'value': x} for x in
-                                  df.state.unique()]),
+                         options=[{'label': x, 'value': x} for x in df.state.unique()]),
             html.Br(),
             html.Div([
                 dcc.Graph(id='pie-graph', figure={}, className='six columns'),
